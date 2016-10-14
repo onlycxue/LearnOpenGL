@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68BFF4131DB08E44006F1D6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68BFF4121DB08E44006F1D6B /* main.cpp */; };
+		68BFF41A1DB08E70006F1D6B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF4191DB08E70006F1D6B /* IOKit.framework */; };
+		68BFF41C1DB08E81006F1D6B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF41B1DB08E81006F1D6B /* CoreVideo.framework */; };
+		68BFF41E1DB08E8D006F1D6B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF41D1DB08E8D006F1D6B /* Cocoa.framework */; };
+		68BFF4201DB08E97006F1D6B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF41F1DB08E97006F1D6B /* OpenGL.framework */; };
+		68BFF4221DB08EDD006F1D6B /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF4211DB08EDD006F1D6B /* libglfw3.a */; };
+		68BFF4241DB08EE2006F1D6B /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF4231DB08EE2006F1D6B /* libGLEW.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68BFF40D1DB08E43006F1D6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68BFF40F1DB08E43006F1D6B /* HelloShader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloShader; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BFF4121DB08E44006F1D6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		68BFF4191DB08E70006F1D6B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		68BFF41B1DB08E81006F1D6B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		68BFF41D1DB08E8D006F1D6B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		68BFF41F1DB08E97006F1D6B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		68BFF4211DB08EDD006F1D6B /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		68BFF4231DB08EE2006F1D6B /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68BFF40C1DB08E43006F1D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BFF4201DB08E97006F1D6B /* OpenGL.framework in Frameworks */,
+				68BFF41E1DB08E8D006F1D6B /* Cocoa.framework in Frameworks */,
+				68BFF41C1DB08E81006F1D6B /* CoreVideo.framework in Frameworks */,
+				68BFF41A1DB08E70006F1D6B /* IOKit.framework in Frameworks */,
+				68BFF4241DB08EE2006F1D6B /* libGLEW.a in Frameworks */,
+				68BFF4221DB08EDD006F1D6B /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BFF4061DB08E42006F1D6B = {
+			isa = PBXGroup;
+			children = (
+				68BFF4231DB08EE2006F1D6B /* libGLEW.a */,
+				68BFF4211DB08EDD006F1D6B /* libglfw3.a */,
+				68BFF41F1DB08E97006F1D6B /* OpenGL.framework */,
+				68BFF41D1DB08E8D006F1D6B /* Cocoa.framework */,
+				68BFF41B1DB08E81006F1D6B /* CoreVideo.framework */,
+				68BFF4191DB08E70006F1D6B /* IOKit.framework */,
+				68BFF4111DB08E43006F1D6B /* HelloShader */,
+				68BFF4101DB08E43006F1D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68BFF4101DB08E43006F1D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68BFF40F1DB08E43006F1D6B /* HelloShader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68BFF4111DB08E43006F1D6B /* HelloShader */ = {
+			isa = PBXGroup;
+			children = (
+				68BFF4121DB08E44006F1D6B /* main.cpp */,
+			);
+			path = HelloShader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68BFF40E1DB08E43006F1D6B /* HelloShader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68BFF4161DB08E44006F1D6B /* Build configuration list for PBXNativeTarget "HelloShader" */;
+			buildPhases = (
+				68BFF40B1DB08E43006F1D6B /* Sources */,
+				68BFF40C1DB08E43006F1D6B /* Frameworks */,
+				68BFF40D1DB08E43006F1D6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloShader;
+			productName = HelloShader;
+			productReference = 68BFF40F1DB08E43006F1D6B /* HelloShader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68BFF4071DB08E42006F1D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = playcrab;
+				TargetAttributes = {
+					68BFF40E1DB08E43006F1D6B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 68BFF40A1DB08E42006F1D6B /* Build configuration list for PBXProject "HelloShader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68BFF4061DB08E42006F1D6B;
+			productRefGroup = 68BFF4101DB08E43006F1D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68BFF40E1DB08E43006F1D6B /* HelloShader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68BFF40B1DB08E43006F1D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BFF4131DB08E44006F1D6B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68BFF4141DB08E44006F1D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68BFF4151DB08E44006F1D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68BFF4171DB08E44006F1D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68BFF4181DB08E44006F1D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68BFF40A1DB08E42006F1D6B /* Build configuration list for PBXProject "HelloShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BFF4141DB08E44006F1D6B /* Debug */,
+				68BFF4151DB08E44006F1D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68BFF4161DB08E44006F1D6B /* Build configuration list for PBXNativeTarget "HelloShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BFF4171DB08E44006F1D6B /* Debug */,
+				68BFF4181DB08E44006F1D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68BFF4071DB08E42006F1D6B /* Project object */;
+}
