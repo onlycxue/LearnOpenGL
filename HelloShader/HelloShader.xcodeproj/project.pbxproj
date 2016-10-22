@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682E6D681DB642CB00B6B0DB /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 682E6D661DB642CB00B6B0DB /* Shader.cpp */; };
 		68BFF4131DB08E44006F1D6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68BFF4121DB08E44006F1D6B /* main.cpp */; };
 		68BFF41A1DB08E70006F1D6B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF4191DB08E70006F1D6B /* IOKit.framework */; };
 		68BFF41C1DB08E81006F1D6B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFF41B1DB08E81006F1D6B /* CoreVideo.framework */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		682E6D661DB642CB00B6B0DB /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		682E6D671DB642CB00B6B0DB /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		68BFF40F1DB08E43006F1D6B /* HelloShader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloShader; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BFF4121DB08E44006F1D6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		68BFF4191DB08E70006F1D6B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				68BFF4121DB08E44006F1D6B /* main.cpp */,
+				682E6D661DB642CB00B6B0DB /* Shader.cpp */,
+				682E6D671DB642CB00B6B0DB /* Shader.hpp */,
 			);
 			path = HelloShader;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682E6D681DB642CB00B6B0DB /* Shader.cpp in Sources */,
 				68BFF4131DB08E44006F1D6B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +273,7 @@
 				68BFF4181DB08E44006F1D6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
