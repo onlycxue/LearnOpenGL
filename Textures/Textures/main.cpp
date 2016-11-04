@@ -14,6 +14,10 @@
 #include "GLFW/glfw3.h"
 #include "Shader.hpp"
 #include "SOIL/SOIL.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+
 
 std::string resource_root = "/Users/playcrab/Documents/Project/GitProject/LearnOpenGL/Textures/Textures/res/";
 
@@ -135,7 +139,7 @@ int main(int argc, const char * argv[]) {
         glClear(GL_COLOR_BUFFER_BIT);
         //render
         
-        shader->use();
+       
         //glBindTexture(GL_TEXTURE_2D,texture);
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, texture1);
@@ -145,10 +149,14 @@ int main(int argc, const char * argv[]) {
         glBindTexture(GL_TEXTURE_2D,texture2);
         glUniform1i(glGetUniformLocation(shader->getProgram(),"ourTexture2"),1); //1 对应着 texture1
         
+         shader->use();
         glBindVertexArray(vao);
        
+        glm::mat4 trans;
+//        trans = glm::translate(trans,glm::vec3(0.5f,0.0f,-0.5f));
+        trans = glm::rotate(trans,(GLfloat)glfwGetTime()* 10.0f,glm::vec3(0.0f,0.0f,1.0f));
         
-        
+        glUniformMatrix4fv(glGetUniformLocation(shader->getProgram(),"transform"),1,GL_FALSE,glm::value_ptr(trans));
         
         glDrawElements(GL_TRIANGLES,6,GL_UNSIGNED_INT,0);
         
